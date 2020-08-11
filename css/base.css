@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 480px;
+  height: 767px;
+
+  font-family: Helvetica;
+}
+
+div {
+  border: 0.5px solid rgb(150, 150, 150);
+  background-color: rgb(209, 209, 209);
+
+  display: flex;
+  
+  font-size: 16px;
+  color: rgb(69, 69, 69);
+}
+
+#middle {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  width: fit-content;
+
+  /* align-content: flex-start; */
+}
+
+
+div > p:nth-child(1) {
+  /* border: 0.5px solid red; */
+
+  width: 95%;
+  height: auto;
+
+  padding: 15px;
+
+}
+
+div > p:nth-child(2){
+  /* border: 0.5px solid red; */
+
+  width: 100%;
+  height: auto;
+
+  align-self: center;
+
+  /* padding: 5px; */
+}
+
+
