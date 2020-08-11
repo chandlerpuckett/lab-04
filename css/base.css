@@ -16,7 +16,7 @@
 }
 
 .upper {
-  background-color: rgb(209, 209, 209);
+  background-color: lemonchiffon;
 
   border-top: 1px solid rgb(150, 150, 150);
   border-right: 1px solid rgb(150, 150, 150);
@@ -24,7 +24,7 @@
 }
 
 .lower {
-  background-color: rgb(209, 209, 209);
+  background-color: lemonchiffon;
 
   border-top: 1px solid rgb(150, 150, 150);
   border-right: 1px solid rgb(150, 150, 150);
@@ -66,4 +66,9 @@ p {
   #b {
     border-bottom: 1px solid rgb(150, 150, 150);
   }
+
+  .upper, .lower {
+    background-color: blanchedalmond;
+  }
+
 }
