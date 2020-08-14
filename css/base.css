@@ -11,8 +11,11 @@
 
 #page-wrap > div {
   display: flex;
+  flex-wrap: wrap;
+
   justify-content: center;
   align-items: center;
+
 }
 
 .upper {
@@ -47,10 +50,39 @@ p {
   color: rgb(69, 69, 69);
 }
 
-@media only screen and (min-width: 768px){
+
+/* table view */
+@media only screen and (min-width: 600px){
 
   #page-wrap {
     width: 960px;
+    height: 768px;
+  }
+
+  #b,#c {
+    float: left;
+    border-right: none;
+  }
+
+  #f {
+    border-right: none;
+  }
+
+  #b {
+    border-bottom: 1px solid rgb(150, 150, 150);
+  }
+
+  .upper, .lower {
+    background-color: lavenderblush;
+  }
+
+}
+
+/* desktop view */
+@media only screen and (min-width: 1100px){
+
+  #page-wrap {
+    width: 1024px;
     height: 768px;
   }
 

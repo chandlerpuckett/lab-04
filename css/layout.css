@@ -44,7 +44,7 @@
   height: 80px;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 600px){
   #a {
     width: 960px;
     height: 100px;
